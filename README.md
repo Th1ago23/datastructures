@@ -1,60 +1,53 @@
-# Entendendo Algoritmos - Prática
+# Understanding Algorithms - Practice
 
-Este repositório foi criado para praticar os conceitos do livro **Entendendo Algoritmos** de Aditya Bhargava. Aqui, serão implementados exemplos e exercícios abordados no livro, utilizando diferentes linguagens de programação.
+This repository was created to practice the concepts from the book **Understanding Algorithms** by Aditya Bhargava. Here, examples and exercises covered in the book will be implemented using different programming languages.
 
-## Estrutura do Repositório
+## Repository Structure
 
-O repositório está organizado da seguinte forma:
+The repository is organized as follows:
 
-- **Capítulo 1 - Introdução a Algoritmos**
-- **Capítulo 2 - Ordenação e Busca**
-- **Capítulo 3 - Recursão**
-- **Capítulo 4 - Divisão e Conquista**
-- **Capítulo 5 - Estruturas de Dados**
-- **Capítulo 6 - Algoritmos de Grafos**
-- **Capítulo 7 - Programação Dinâmica**
-- **Capítulo 8 - Algoritmos Avançados**
+- **Chapter 1 - Introduction to Algorithms**
+- **Chapter 2 - Sorting and Searching**
+- **Chapter 3 - Recursion**
+- **Chapter 4 - Divide and Conquer**
+- **Chapter 5 - Data Structures**
+- **Chapter 6 - Graph Algorithms**
+- **Chapter 7 - Dynamic Programming**
+- **Chapter 8 - Advanced Algorithms**
 
-Cada pasta contém códigos comentados e explicações sobre os algoritmos abordados.
+Each folder contains commented code and explanations about the covered algorithms.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-Os algoritmos serão implementados em diferentes linguagens de programação, incluindo:
+The algorithms will be implemented using different programming languages, including:
 
-- Python
-- Java
-- JavaScript
-- C#
+- `Java`
 
-## Como Contribuir
+## How to Contribute
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/your-username/repository-name.git
    ```
-2. Crie uma branch para sua contribuição:
+2. Create a branch for your contribution:
    ```bash
-   git checkout -b minha-contribuicao
+   git checkout -b my-contribution
    ```
-3. Adicione suas modificações e faça um commit:
+3. Add your modifications and commit:
    ```bash
-   git commit -m "Adicionando novo algoritmo"
+   git commit -m "Adding new algorithm"
    ```
-4. Envie sua branch para o repositório remoto:
+4. Push your branch to the remote repository:
    ```bash
-   git push origin minha-contribuicao
+   git push origin my-contribution
    ```
-5. Abra um Pull Request para revisão.
+5. Open a Pull Request for review.
 
-## Referências
+## References
 
-- [Entendendo Algoritmos - Aditya Bhargava](https://www.novatec.com.br/livros/entendendo-algoritmos/)
-- [Documentação Oficial de Python](https://docs.python.org/3/)
-- [Documentação Oficial de Java](https://docs.oracle.com/en/java/)
-- [Documentação Oficial de JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Documentação Oficial de C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
+- [Understanding Algorithms - Aditya Bhargava](https://www.novatec.com.br/livros/entendendo-algoritmos/)
+- [Official Java Documentation](https://docs.oracle.com/en/java/)
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar e contribuir!
-
+This project is under the MIT license. Feel free to use and contribute!
