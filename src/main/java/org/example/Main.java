@@ -1,17 +1,27 @@
 package org.example;
 
+import org.example.introduce.BinarySearch;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        List<Integer> ints = new ArrayList<>();
+
+        ints.add(1);
+        ints.add(2);
+        ints.add(3);
+        ints.add(4);
+        ints.add(5);
+        ints.add(6);
+
+        BinarySearch bs = new BinarySearch(ints);
+
+        int result = bs.binaryS(5);
+        System.out.println("Índice do número 5: " + result);
     }
 }
