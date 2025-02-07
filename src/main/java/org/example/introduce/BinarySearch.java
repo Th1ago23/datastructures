@@ -1,6 +1,5 @@
 package org.example.introduce;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BinarySearch {
