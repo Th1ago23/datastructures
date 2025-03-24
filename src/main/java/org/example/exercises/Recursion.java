@@ -1,11 +1,11 @@
 package org.example.exercises;
 
-public class Recursao {
+public class Recursion {
     private int number;
 
 
 
-    public Recursao(int number){
+    public Recursion(int number){
         this.number = number;
     }
 
