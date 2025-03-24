@@ -12,6 +12,7 @@ public class Recursion {
     public void returnUntilOne (int number){
         if (number <= 1){
             System.out.println("1");
+            return;
         }
             System.out.println(number);
             returnUntilOne(number / 2);
@@ -20,6 +21,7 @@ public class Recursion {
     public void returnUntilN (int number, int target){
         if (target == number){
             System.out.println(1);
+            return;
         }
         System.out.println("O target é: "+target + " Contagem atual: " + number);
         returnUntilN(number, target + 1);
